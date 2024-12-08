@@ -1,0 +1,3171 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "srcLib/rdimon/librdimonLib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"pico_define_boot_stage2",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"McuLib/rdimon/CMakeLists.txt",
+			"/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 54,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g -std=gnu11"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico_w\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/rdimon/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/build/debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RaspberryPi/RP2040/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				25,
+				26,
+				28,
+				31,
+				32,
+				36,
+				37,
+				39,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico_w\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/rdimon/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/build/debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RaspberryPi/RP2040/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				7,
+				24,
+				27,
+				29,
+				30,
+				33,
+				34,
+				35,
+				38,
+				40,
+				41
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-unwind-tables"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-use-cxa-atexit"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico_w\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/rdimon/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/TSM_PicoW_CI_CD/build/debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RaspberryPi/RP2040/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				42
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "McuLib::@042ba38dea3792c76892"
+		}
+	],
+	"id" : "rdimonLib::@1e7465c0e3d709d6645a",
+	"name" : "rdimonLib",
+	"nameOnDisk" : "librdimonLib.a",
+	"paths" : 
+	{
+		"build" : "srcLib/rdimon",
+		"source" : "McuLib/rdimon"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				25,
+				26,
+				28,
+				31,
+				32,
+				36,
+				37,
+				39,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				7,
+				24,
+				27,
+				29,
+				30,
+				33,
+				34,
+				35,
+				38,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/rdimon/McuRdimon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_printf/printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_divider/divider.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RaspberryPi/RP2040/Source/system_RP2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/croutine.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/event_groups.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/list.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/Common/mpu_wrappers.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/portTicks.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_1.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_2.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_3.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_5.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/portable/MemMang/heap_useNewlib.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/queue.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/stream_buffer.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/tasks.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/FreeRTOS/Source/timers.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/Modbus/McuHeidelberg.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/Modbus/McuModbus.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/McuNRF24L01.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/McuRNet.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RApp.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RMAC.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RMSG.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RNWK.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RPHY.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RStack.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/RStdIO.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/RNet/Radio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_RTT/RTT_Syscalls_GCC.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_RTT/SEGGER_RTT.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_RTT/SEGGER_RTT_printf.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_Sysview/McuSystemView.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_Sysview/SEGGER_SYSVIEW.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_Sysview/SEGGER_SYSVIEW_Config_FreeRTOS.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/SEGGER_Sysview/SEGGER_SYSVIEW_FreeRTOS.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour08Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour08Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour10Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour10Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour12Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour12Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour14Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour14Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour18Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour18Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour24Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontCour24Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv08Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv08Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv10Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv10Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv12Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv12Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv14Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv14Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv18Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv18Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv24Bold.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/fonts/McuFontHelv24Normal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/littleFS/McuLittleFS.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/littleFS/McuLittleFSBlockDevice.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/littleFS/lfs.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/littleFS/lfs_util.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/minIni/McuMinINI.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/minIni/minGlue-Flash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/minIni/minGlue-LittleFS.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/minIni/minIni.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuArmTools.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuButton.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuCRC_CreateTable.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuCRC_Generator.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuCoverage.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuCriticalSection.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuDebounce.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuEE24.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuEvents.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuExtRTC.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuFXOS8700.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuFlash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuFontDisplay.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuGDisplaySSD1306.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuGFont.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuGPIO.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuGenericI2C.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuGenericSWI2C.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuHardFault.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuI2cLib.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuINA260.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuLED.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuLib.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuLog.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuPCF85063A.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuRB.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuRTOS.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuRTT.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuSHT31.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuSHT40.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuSPI.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuSSD1306.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuST7735.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuSemihost.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuShell.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuShellUart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuTimeDate.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuTimeout.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuTrigger.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuULN2003.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuUart485.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuUnity.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuUtility.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuW25Q128.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuWait.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuWatchdog.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuX12_017.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/McuXFormat.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/SCL1.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/src/SDA1.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/sem.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/mutex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/time.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/datetime.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/pheap.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/common/pico_util/queue.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/debug/srcLib/McuLib/CMakeFiles/McuLib.dir/home/franzs/Documents/HSLU/TSM_SoftwEng/Raspy/pico/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RaspberryPi/RP2040/Source/system_RP2040.c.obj",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
