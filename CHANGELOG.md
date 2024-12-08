@@ -1,4 +1,9 @@
 # CHANGELOG.md
+## v.0.0.5
+Fixes:
+ - none
+Features:
+- Added to GitHub for TSM module 
 
 ## v0.0.4
 Fixes:
